@@ -1,0 +1,5 @@
+pes = float(input("Qual o seu peso em KG? "))
+alt = float(input("Qual a sua altura em Metros? "))
+tot = pes / (alt * 2)
+tot1 = round(tot, 2)
+print(f"O seu imc é {tot1}")
